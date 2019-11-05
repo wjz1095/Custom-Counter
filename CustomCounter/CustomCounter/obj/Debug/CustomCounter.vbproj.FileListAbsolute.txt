@@ -1,1 +1,10 @@
 Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe.config
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.pdb
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.xml
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.MainForm.resources
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.Resources.resources
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.vbproj.GenerateResource.Cache
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.xml
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.pdb
