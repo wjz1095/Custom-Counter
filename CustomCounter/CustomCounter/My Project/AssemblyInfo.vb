@@ -8,9 +8,9 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("CustomCounter")> 
+<Assembly: AssemblyTitle("Custom Counter")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyCompany("WZ Prod")> 
 <Assembly: AssemblyProduct("CustomCounter")> 
 <Assembly: AssemblyCopyright("Copyright ©  2019")> 
 <Assembly: AssemblyTrademark("")> 

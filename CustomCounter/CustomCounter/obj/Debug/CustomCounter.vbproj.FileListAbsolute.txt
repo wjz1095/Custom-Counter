@@ -8,3 +8,7 @@ Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\Cust
 Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe
 Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.xml
 Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.pdb
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe.manifest
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.application
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe.manifest
+Y:\Github-Repositories\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.application
