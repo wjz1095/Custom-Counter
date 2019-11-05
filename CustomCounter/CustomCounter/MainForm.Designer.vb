@@ -822,6 +822,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "MainForm"
         Me.Text = "Custom Counter"
         Me.GroupBox1.ResumeLayout(False)
