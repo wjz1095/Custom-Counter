@@ -46,74 +46,50 @@
 
     Private Sub Counter1ResetButton_Click(sender As Object, e As EventArgs) Handles Counter1ResetButton.Click
         Counter1TextBox.Text = ""
-        Counter1Label.Text = "0"
-        Counter1Count = 0
     End Sub
 
     Private Sub Counter2ResetButton_Click(sender As Object, e As EventArgs) Handles Counter2ResetButton.Click
         Counter2TextBox.Text = ""
-        Counter2Label.Text = "0"
-        Counter2Count = 0
     End Sub
 
     Private Sub Counter3ResetButton_Click(sender As Object, e As EventArgs) Handles Counter3ResetButton.Click
         Counter3TextBox.Text = ""
-        Counter3Label.Text = "0"
-        Counter3Count = 0
     End Sub
 
     Private Sub Counter4ResetButton_Click(sender As Object, e As EventArgs) Handles Counter4ResetButton.Click
         Counter4TextBox.Text = ""
-        Counter4Label.Text = "0"
-        Counter4Count = 0
     End Sub
 
     Private Sub Counter5ResetButton_Click(sender As Object, e As EventArgs) Handles Counter5ResetButton.Click
         Counter5TextBox.Text = ""
-        Counter5Label.Text = "0"
-        Counter5Count = 0
     End Sub
 
     Private Sub Counter6ResetButton_Click(sender As Object, e As EventArgs) Handles Counter6ResetButton.Click
         Counter6TextBox.Text = ""
-        Counter6Label.Text = "0"
-        Counter6Count = 0
     End Sub
 
     Private Sub Counter7ResetButton_Click(sender As Object, e As EventArgs) Handles Counter7ResetButton.Click
         Counter7TextBox.Text = ""
-        Counter7Label.Text = "0"
-        Counter7Count = 0
     End Sub
 
     Private Sub Counter8ResetButton_Click(sender As Object, e As EventArgs) Handles Counter8ResetButton.Click
         Counter8TextBox.Text = ""
-        Counter8Label.Text = "0"
-        Counter8Count = 0
     End Sub
 
     Private Sub Counter9ResetButton_Click(sender As Object, e As EventArgs) Handles Counter9ResetButton.Click
         Counter9TextBox.Text = ""
-        Counter9Label.Text = "0"
-        Counter9Count = 0
     End Sub
 
     Private Sub Counter10ResetButton_Click(sender As Object, e As EventArgs) Handles Counter10ResetButton.Click
         Counter10TextBox.Text = ""
-        Counter10Label.Text = "0"
-        Counter10Count = 0
     End Sub
 
     Private Sub Counter11ResetButton_Click(sender As Object, e As EventArgs) Handles Counter11ResetButton.Click
         Counter11TextBox.Text = ""
-        Counter11Label.Text = "0"
-        Counter11Count = 0
     End Sub
 
     Private Sub Counter12ResetButton_Click(sender As Object, e As EventArgs) Handles Counter12ResetButton.Click
         Counter12TextBox.Text = ""
-        Counter12Label.Text = "0"
-        Counter12Count = 0
     End Sub
 
     Public Sub Counter1MinusButton_Click(sender As Object, e As EventArgs) Handles Counter1MinusButton.Click
@@ -234,5 +210,65 @@
     Private Sub Counter12PlusButton_Click(sender As Object, e As EventArgs) Handles Counter12PlusButton.Click
         Counter12Count = Counter12Count + 1
         Counter12Label.Text = Counter12Count
+    End Sub
+
+    Private Sub Counter1SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter1SetTo0Button.Click
+        Counter1Label.Text = "0"
+        Counter1Count = 0
+    End Sub
+
+    Private Sub Counter2SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter2SetTo0Button.Click
+        Counter2Label.Text = "0"
+        Counter2Count = 0
+    End Sub
+
+    Private Sub Counter3SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter3SetTo0Button.Click
+        Counter3Label.Text = "0"
+        Counter3Count = 0
+    End Sub
+
+    Private Sub Counter4SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter4SetTo0Button.Click
+        Counter4Label.Text = "0"
+        Counter4Count = 0
+    End Sub
+
+    Private Sub Counter5SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter5SetTo0Button.Click
+        Counter5Label.Text = "0"
+        Counter5Count = 0
+    End Sub
+
+    Private Sub Counter6SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter6SetTo0Button.Click
+        Counter6Label.Text = "0"
+        Counter6Count = 0
+    End Sub
+
+    Private Sub Counter7SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter7SetTo0Button.Click
+        Counter7Label.Text = "0"
+        Counter7Count = 0
+    End Sub
+
+    Private Sub Counter8SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter8SetTo0Button.Click
+        Counter8Label.Text = "0"
+        Counter8Count = 0
+    End Sub
+
+    Private Sub Counter9SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter9SetTo0Button.Click
+        Counter9Label.Text = "0"
+        Counter9Count = 0
+    End Sub
+
+    Private Sub Counter10SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter10SetTo0Button.Click
+        Counter10Label.Text = "0"
+        Counter10Count = 0
+    End Sub
+
+    Private Sub Counter11SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter11SetTo0Button.Click
+        Counter11Label.Text = "0"
+        Counter11Count = 0
+    End Sub
+
+    Private Sub Counter12SetTo0Button_Click(sender As Object, e As EventArgs) Handles Counter12SetTo0Button.Click
+        Counter12Label.Text = "0"
+        Counter12Count = 0
     End Sub
 End Class

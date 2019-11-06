@@ -95,6 +95,18 @@ Partial Class MainForm
         Me.Counter12PlusButton = New System.Windows.Forms.Button()
         Me.Counter12Label = New System.Windows.Forms.Label()
         Me.Counter12TextBox = New System.Windows.Forms.TextBox()
+        Me.Counter1SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter2SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter3SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter4SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter5SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter6SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter7SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter8SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter9SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter10SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter11SetTo0Button = New System.Windows.Forms.Button()
+        Me.Counter12SetTo0Button = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -111,6 +123,7 @@ Partial Class MainForm
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Counter1SetTo0Button)
         Me.GroupBox1.Controls.Add(Me.Counter1ResetButton)
         Me.GroupBox1.Controls.Add(Me.Counter1MinusButton)
         Me.GroupBox1.Controls.Add(Me.Counter1PlusButton)
@@ -127,9 +140,9 @@ Partial Class MainForm
         '
         Me.Counter1ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter1ResetButton.Name = "Counter1ResetButton"
-        Me.Counter1ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter1ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter1ResetButton.TabIndex = 4
-        Me.Counter1ResetButton.Text = "Reset"
+        Me.Counter1ResetButton.Text = "Clear Text"
         Me.Counter1ResetButton.UseVisualStyleBackColor = True
         '
         'Counter1MinusButton
@@ -164,11 +177,12 @@ Partial Class MainForm
         '
         Me.Counter1TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter1TextBox.Name = "Counter1TextBox"
-        Me.Counter1TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter1TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter1TextBox.TabIndex = 0
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Counter2SetTo0Button)
         Me.GroupBox2.Controls.Add(Me.Counter2ResetButton)
         Me.GroupBox2.Controls.Add(Me.Counter2MinusButton)
         Me.GroupBox2.Controls.Add(Me.Counter2PlusButton)
@@ -185,9 +199,9 @@ Partial Class MainForm
         '
         Me.Counter2ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter2ResetButton.Name = "Counter2ResetButton"
-        Me.Counter2ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter2ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter2ResetButton.TabIndex = 4
-        Me.Counter2ResetButton.Text = "Reset"
+        Me.Counter2ResetButton.Text = "Clear Text"
         Me.Counter2ResetButton.UseVisualStyleBackColor = True
         '
         'Counter2MinusButton
@@ -222,11 +236,12 @@ Partial Class MainForm
         '
         Me.Counter2TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter2TextBox.Name = "Counter2TextBox"
-        Me.Counter2TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter2TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter2TextBox.TabIndex = 0
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.Counter3SetTo0Button)
         Me.GroupBox3.Controls.Add(Me.Counter3ResetButton)
         Me.GroupBox3.Controls.Add(Me.Counter3MinusButton)
         Me.GroupBox3.Controls.Add(Me.Counter3PlusButton)
@@ -243,9 +258,9 @@ Partial Class MainForm
         '
         Me.Counter3ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter3ResetButton.Name = "Counter3ResetButton"
-        Me.Counter3ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter3ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter3ResetButton.TabIndex = 4
-        Me.Counter3ResetButton.Text = "Reset"
+        Me.Counter3ResetButton.Text = "Clear Text"
         Me.Counter3ResetButton.UseVisualStyleBackColor = True
         '
         'Counter3MinusButton
@@ -280,11 +295,12 @@ Partial Class MainForm
         '
         Me.Counter3TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter3TextBox.Name = "Counter3TextBox"
-        Me.Counter3TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter3TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter3TextBox.TabIndex = 0
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.Counter4SetTo0Button)
         Me.GroupBox4.Controls.Add(Me.Counter4ResetButton)
         Me.GroupBox4.Controls.Add(Me.Counter4MinusButton)
         Me.GroupBox4.Controls.Add(Me.Counter4PlusButton)
@@ -301,9 +317,9 @@ Partial Class MainForm
         '
         Me.Counter4ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter4ResetButton.Name = "Counter4ResetButton"
-        Me.Counter4ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter4ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter4ResetButton.TabIndex = 4
-        Me.Counter4ResetButton.Text = "Reset"
+        Me.Counter4ResetButton.Text = "Clear Text"
         Me.Counter4ResetButton.UseVisualStyleBackColor = True
         '
         'Counter4MinusButton
@@ -338,11 +354,12 @@ Partial Class MainForm
         '
         Me.Counter4TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter4TextBox.Name = "Counter4TextBox"
-        Me.Counter4TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter4TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter4TextBox.TabIndex = 0
         '
         'GroupBox5
         '
+        Me.GroupBox5.Controls.Add(Me.Counter5SetTo0Button)
         Me.GroupBox5.Controls.Add(Me.Counter5ResetButton)
         Me.GroupBox5.Controls.Add(Me.Counter5MinusButton)
         Me.GroupBox5.Controls.Add(Me.Counter5PlusButton)
@@ -359,9 +376,9 @@ Partial Class MainForm
         '
         Me.Counter5ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter5ResetButton.Name = "Counter5ResetButton"
-        Me.Counter5ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter5ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter5ResetButton.TabIndex = 4
-        Me.Counter5ResetButton.Text = "Reset"
+        Me.Counter5ResetButton.Text = "Clear Text"
         Me.Counter5ResetButton.UseVisualStyleBackColor = True
         '
         'Counter5MinusButton
@@ -396,11 +413,12 @@ Partial Class MainForm
         '
         Me.Counter5TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter5TextBox.Name = "Counter5TextBox"
-        Me.Counter5TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter5TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter5TextBox.TabIndex = 0
         '
         'GroupBox6
         '
+        Me.GroupBox6.Controls.Add(Me.Counter6SetTo0Button)
         Me.GroupBox6.Controls.Add(Me.Counter6ResetButton)
         Me.GroupBox6.Controls.Add(Me.Counter6MinusButton)
         Me.GroupBox6.Controls.Add(Me.Counter6PlusButton)
@@ -417,9 +435,9 @@ Partial Class MainForm
         '
         Me.Counter6ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter6ResetButton.Name = "Counter6ResetButton"
-        Me.Counter6ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter6ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter6ResetButton.TabIndex = 4
-        Me.Counter6ResetButton.Text = "Reset"
+        Me.Counter6ResetButton.Text = "Clear Text"
         Me.Counter6ResetButton.UseVisualStyleBackColor = True
         '
         'Counter6MinusButton
@@ -454,11 +472,12 @@ Partial Class MainForm
         '
         Me.Counter6TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter6TextBox.Name = "Counter6TextBox"
-        Me.Counter6TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter6TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter6TextBox.TabIndex = 0
         '
         'GroupBox7
         '
+        Me.GroupBox7.Controls.Add(Me.Counter7SetTo0Button)
         Me.GroupBox7.Controls.Add(Me.Counter7ResetButton)
         Me.GroupBox7.Controls.Add(Me.Counter7MinusButton)
         Me.GroupBox7.Controls.Add(Me.Counter7PlusButton)
@@ -475,9 +494,9 @@ Partial Class MainForm
         '
         Me.Counter7ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter7ResetButton.Name = "Counter7ResetButton"
-        Me.Counter7ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter7ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter7ResetButton.TabIndex = 4
-        Me.Counter7ResetButton.Text = "Reset"
+        Me.Counter7ResetButton.Text = "ClearText"
         Me.Counter7ResetButton.UseVisualStyleBackColor = True
         '
         'Counter7MinusButton
@@ -512,11 +531,12 @@ Partial Class MainForm
         '
         Me.Counter7TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter7TextBox.Name = "Counter7TextBox"
-        Me.Counter7TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter7TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter7TextBox.TabIndex = 0
         '
         'GroupBox8
         '
+        Me.GroupBox8.Controls.Add(Me.Counter8SetTo0Button)
         Me.GroupBox8.Controls.Add(Me.Counter8ResetButton)
         Me.GroupBox8.Controls.Add(Me.Counter8MinusButton)
         Me.GroupBox8.Controls.Add(Me.Counter8PlusButton)
@@ -533,9 +553,9 @@ Partial Class MainForm
         '
         Me.Counter8ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter8ResetButton.Name = "Counter8ResetButton"
-        Me.Counter8ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter8ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter8ResetButton.TabIndex = 4
-        Me.Counter8ResetButton.Text = "Reset"
+        Me.Counter8ResetButton.Text = "Clear Text"
         Me.Counter8ResetButton.UseVisualStyleBackColor = True
         '
         'Counter8MinusButton
@@ -570,11 +590,12 @@ Partial Class MainForm
         '
         Me.Counter8TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter8TextBox.Name = "Counter8TextBox"
-        Me.Counter8TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter8TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter8TextBox.TabIndex = 0
         '
         'GroupBox9
         '
+        Me.GroupBox9.Controls.Add(Me.Counter9SetTo0Button)
         Me.GroupBox9.Controls.Add(Me.Counter9ResetButton)
         Me.GroupBox9.Controls.Add(Me.Counter9MinusButton)
         Me.GroupBox9.Controls.Add(Me.Counter9PlusButton)
@@ -591,9 +612,9 @@ Partial Class MainForm
         '
         Me.Counter9ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter9ResetButton.Name = "Counter9ResetButton"
-        Me.Counter9ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter9ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter9ResetButton.TabIndex = 4
-        Me.Counter9ResetButton.Text = "Reset"
+        Me.Counter9ResetButton.Text = "Clear Text"
         Me.Counter9ResetButton.UseVisualStyleBackColor = True
         '
         'Counter9MinusButton
@@ -628,11 +649,12 @@ Partial Class MainForm
         '
         Me.Counter9TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter9TextBox.Name = "Counter9TextBox"
-        Me.Counter9TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter9TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter9TextBox.TabIndex = 0
         '
         'GroupBox10
         '
+        Me.GroupBox10.Controls.Add(Me.Counter10SetTo0Button)
         Me.GroupBox10.Controls.Add(Me.Counter10ResetButton)
         Me.GroupBox10.Controls.Add(Me.Counter10MinusButton)
         Me.GroupBox10.Controls.Add(Me.Counter10PlusButton)
@@ -649,9 +671,9 @@ Partial Class MainForm
         '
         Me.Counter10ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter10ResetButton.Name = "Counter10ResetButton"
-        Me.Counter10ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter10ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter10ResetButton.TabIndex = 4
-        Me.Counter10ResetButton.Text = "Reset"
+        Me.Counter10ResetButton.Text = "Clear Text"
         Me.Counter10ResetButton.UseVisualStyleBackColor = True
         '
         'Counter10MinusButton
@@ -686,11 +708,12 @@ Partial Class MainForm
         '
         Me.Counter10TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter10TextBox.Name = "Counter10TextBox"
-        Me.Counter10TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter10TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter10TextBox.TabIndex = 0
         '
         'GroupBox11
         '
+        Me.GroupBox11.Controls.Add(Me.Counter11SetTo0Button)
         Me.GroupBox11.Controls.Add(Me.Counter11ResetButton)
         Me.GroupBox11.Controls.Add(Me.Counter11MinusButton)
         Me.GroupBox11.Controls.Add(Me.Counter11PlusButton)
@@ -707,9 +730,9 @@ Partial Class MainForm
         '
         Me.Counter11ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter11ResetButton.Name = "Counter11ResetButton"
-        Me.Counter11ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter11ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter11ResetButton.TabIndex = 4
-        Me.Counter11ResetButton.Text = "Reset"
+        Me.Counter11ResetButton.Text = "Clear Text"
         Me.Counter11ResetButton.UseVisualStyleBackColor = True
         '
         'Counter11MinusButton
@@ -744,11 +767,12 @@ Partial Class MainForm
         '
         Me.Counter11TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter11TextBox.Name = "Counter11TextBox"
-        Me.Counter11TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter11TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter11TextBox.TabIndex = 0
         '
         'GroupBox12
         '
+        Me.GroupBox12.Controls.Add(Me.Counter12SetTo0Button)
         Me.GroupBox12.Controls.Add(Me.Counter12ResetButton)
         Me.GroupBox12.Controls.Add(Me.Counter12MinusButton)
         Me.GroupBox12.Controls.Add(Me.Counter12PlusButton)
@@ -765,9 +789,9 @@ Partial Class MainForm
         '
         Me.Counter12ResetButton.Location = New System.Drawing.Point(7, 79)
         Me.Counter12ResetButton.Name = "Counter12ResetButton"
-        Me.Counter12ResetButton.Size = New System.Drawing.Size(75, 23)
+        Me.Counter12ResetButton.Size = New System.Drawing.Size(95, 23)
         Me.Counter12ResetButton.TabIndex = 4
-        Me.Counter12ResetButton.Text = "Reset"
+        Me.Counter12ResetButton.Text = "Clear Text"
         Me.Counter12ResetButton.UseVisualStyleBackColor = True
         '
         'Counter12MinusButton
@@ -802,8 +826,116 @@ Partial Class MainForm
         '
         Me.Counter12TextBox.Location = New System.Drawing.Point(7, 20)
         Me.Counter12TextBox.Name = "Counter12TextBox"
-        Me.Counter12TextBox.Size = New System.Drawing.Size(181, 20)
+        Me.Counter12TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter12TextBox.TabIndex = 0
+        '
+        'Counter1SetTo0Button
+        '
+        Me.Counter1SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter1SetTo0Button.Name = "Counter1SetTo0Button"
+        Me.Counter1SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter1SetTo0Button.TabIndex = 5
+        Me.Counter1SetTo0Button.Text = "Set to 0"
+        Me.Counter1SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter2SetTo0Button
+        '
+        Me.Counter2SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter2SetTo0Button.Name = "Counter2SetTo0Button"
+        Me.Counter2SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter2SetTo0Button.TabIndex = 6
+        Me.Counter2SetTo0Button.Text = "Set to 0"
+        Me.Counter2SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter3SetTo0Button
+        '
+        Me.Counter3SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter3SetTo0Button.Name = "Counter3SetTo0Button"
+        Me.Counter3SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter3SetTo0Button.TabIndex = 7
+        Me.Counter3SetTo0Button.Text = "Set to 0"
+        Me.Counter3SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter4SetTo0Button
+        '
+        Me.Counter4SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter4SetTo0Button.Name = "Counter4SetTo0Button"
+        Me.Counter4SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter4SetTo0Button.TabIndex = 8
+        Me.Counter4SetTo0Button.Text = "Set to 0"
+        Me.Counter4SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter5SetTo0Button
+        '
+        Me.Counter5SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter5SetTo0Button.Name = "Counter5SetTo0Button"
+        Me.Counter5SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter5SetTo0Button.TabIndex = 9
+        Me.Counter5SetTo0Button.Text = "Set to 0"
+        Me.Counter5SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter6SetTo0Button
+        '
+        Me.Counter6SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter6SetTo0Button.Name = "Counter6SetTo0Button"
+        Me.Counter6SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter6SetTo0Button.TabIndex = 10
+        Me.Counter6SetTo0Button.Text = "Set to 0"
+        Me.Counter6SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter7SetTo0Button
+        '
+        Me.Counter7SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter7SetTo0Button.Name = "Counter7SetTo0Button"
+        Me.Counter7SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter7SetTo0Button.TabIndex = 11
+        Me.Counter7SetTo0Button.Text = "Set to 0"
+        Me.Counter7SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter8SetTo0Button
+        '
+        Me.Counter8SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter8SetTo0Button.Name = "Counter8SetTo0Button"
+        Me.Counter8SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter8SetTo0Button.TabIndex = 12
+        Me.Counter8SetTo0Button.Text = "Set to 0"
+        Me.Counter8SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter9SetTo0Button
+        '
+        Me.Counter9SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter9SetTo0Button.Name = "Counter9SetTo0Button"
+        Me.Counter9SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter9SetTo0Button.TabIndex = 13
+        Me.Counter9SetTo0Button.Text = "Set to 0"
+        Me.Counter9SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter10SetTo0Button
+        '
+        Me.Counter10SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter10SetTo0Button.Name = "Counter10SetTo0Button"
+        Me.Counter10SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter10SetTo0Button.TabIndex = 14
+        Me.Counter10SetTo0Button.Text = "Set to 0"
+        Me.Counter10SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter11SetTo0Button
+        '
+        Me.Counter11SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter11SetTo0Button.Name = "Counter11SetTo0Button"
+        Me.Counter11SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter11SetTo0Button.TabIndex = 15
+        Me.Counter11SetTo0Button.Text = "Set to 0"
+        Me.Counter11SetTo0Button.UseVisualStyleBackColor = True
+        '
+        'Counter12SetTo0Button
+        '
+        Me.Counter12SetTo0Button.Location = New System.Drawing.Point(108, 79)
+        Me.Counter12SetTo0Button.Name = "Counter12SetTo0Button"
+        Me.Counter12SetTo0Button.Size = New System.Drawing.Size(89, 23)
+        Me.Counter12SetTo0Button.TabIndex = 16
+        Me.Counter12SetTo0Button.Text = "Set to 0"
+        Me.Counter12SetTo0Button.UseVisualStyleBackColor = True
         '
         'MainForm
         '
@@ -926,5 +1058,17 @@ Partial Class MainForm
     Friend WithEvents Counter12PlusButton As System.Windows.Forms.Button
     Friend WithEvents Counter12Label As System.Windows.Forms.Label
     Friend WithEvents Counter12TextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Counter1SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter2SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter3SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter4SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter5SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter6SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter7SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter8SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter9SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter10SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter11SetTo0Button As System.Windows.Forms.Button
+    Friend WithEvents Counter12SetTo0Button As System.Windows.Forms.Button
 
 End Class
