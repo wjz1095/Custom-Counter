@@ -1,7 +1,7 @@
 # Custom-Counter
 A custom counter program for Windows, built in VB.net
 
-Now with the ability to export to a CSV file.
+[Latest release available here](https://github.com/wjz1095/Custom-Counter/releases)
 
 ![mainGUI](https://i.imgur.com/C3zeHw1.png)
 
