@@ -107,6 +107,11 @@ Partial Class MainForm
         Me.Counter12PlusButton = New System.Windows.Forms.Button()
         Me.Counter12Label = New System.Windows.Forms.Label()
         Me.Counter12TextBox = New System.Windows.Forms.TextBox()
+        Me.ResetAllButton = New System.Windows.Forms.Button()
+        Me.ExportButton = New System.Windows.Forms.Button()
+        Me.SetTitleTextButton = New System.Windows.Forms.Button()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -182,7 +187,7 @@ Partial Class MainForm
         Me.Counter1Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter1Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter1Label.Name = "Counter1Label"
-        Me.Counter1Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter1Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter1Label.TabIndex = 1
         Me.Counter1Label.Text = "0"
         '
@@ -192,6 +197,7 @@ Partial Class MainForm
         Me.Counter1TextBox.Name = "Counter1TextBox"
         Me.Counter1TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter1TextBox.TabIndex = 0
+        Me.Counter1TextBox.Text = "Enter custom text here"
         '
         'GroupBox2
         '
@@ -254,7 +260,7 @@ Partial Class MainForm
         Me.Counter2Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter2Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter2Label.Name = "Counter2Label"
-        Me.Counter2Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter2Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter2Label.TabIndex = 1
         Me.Counter2Label.Text = "0"
         '
@@ -326,7 +332,7 @@ Partial Class MainForm
         Me.Counter3Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter3Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter3Label.Name = "Counter3Label"
-        Me.Counter3Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter3Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter3Label.TabIndex = 1
         Me.Counter3Label.Text = "0"
         '
@@ -398,7 +404,7 @@ Partial Class MainForm
         Me.Counter4Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter4Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter4Label.Name = "Counter4Label"
-        Me.Counter4Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter4Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter4Label.TabIndex = 1
         Me.Counter4Label.Text = "0"
         '
@@ -470,7 +476,7 @@ Partial Class MainForm
         Me.Counter5Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter5Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter5Label.Name = "Counter5Label"
-        Me.Counter5Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter5Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter5Label.TabIndex = 1
         Me.Counter5Label.Text = "0"
         '
@@ -542,7 +548,7 @@ Partial Class MainForm
         Me.Counter6Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter6Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter6Label.Name = "Counter6Label"
-        Me.Counter6Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter6Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter6Label.TabIndex = 1
         Me.Counter6Label.Text = "0"
         '
@@ -614,7 +620,7 @@ Partial Class MainForm
         Me.Counter7Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter7Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter7Label.Name = "Counter7Label"
-        Me.Counter7Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter7Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter7Label.TabIndex = 1
         Me.Counter7Label.Text = "0"
         '
@@ -686,7 +692,7 @@ Partial Class MainForm
         Me.Counter8Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter8Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter8Label.Name = "Counter8Label"
-        Me.Counter8Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter8Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter8Label.TabIndex = 1
         Me.Counter8Label.Text = "0"
         '
@@ -758,7 +764,7 @@ Partial Class MainForm
         Me.Counter9Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter9Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter9Label.Name = "Counter9Label"
-        Me.Counter9Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter9Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter9Label.TabIndex = 1
         Me.Counter9Label.Text = "0"
         '
@@ -830,7 +836,7 @@ Partial Class MainForm
         Me.Counter10Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter10Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter10Label.Name = "Counter10Label"
-        Me.Counter10Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter10Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter10Label.TabIndex = 1
         Me.Counter10Label.Text = "0"
         '
@@ -902,7 +908,7 @@ Partial Class MainForm
         Me.Counter11Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter11Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter11Label.Name = "Counter11Label"
-        Me.Counter11Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter11Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter11Label.TabIndex = 1
         Me.Counter11Label.Text = "0"
         '
@@ -974,7 +980,7 @@ Partial Class MainForm
         Me.Counter12Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Counter12Label.Location = New System.Drawing.Point(92, 46)
         Me.Counter12Label.Name = "Counter12Label"
-        Me.Counter12Label.Size = New System.Drawing.Size(25, 25)
+        Me.Counter12Label.Size = New System.Drawing.Size(27, 29)
         Me.Counter12Label.TabIndex = 1
         Me.Counter12Label.Text = "0"
         '
@@ -985,11 +991,52 @@ Partial Class MainForm
         Me.Counter12TextBox.Size = New System.Drawing.Size(190, 20)
         Me.Counter12TextBox.TabIndex = 11
         '
+        'ResetAllButton
+        '
+        Me.ResetAllButton.BackColor = System.Drawing.Color.LightCoral
+        Me.ResetAllButton.Location = New System.Drawing.Point(747, 363)
+        Me.ResetAllButton.Name = "ResetAllButton"
+        Me.ResetAllButton.Size = New System.Drawing.Size(89, 23)
+        Me.ResetAllButton.TabIndex = 16
+        Me.ResetAllButton.Text = "Reset All"
+        Me.ResetAllButton.UseVisualStyleBackColor = False
+        '
+        'ExportButton
+        '
+        Me.ExportButton.Location = New System.Drawing.Point(120, 363)
+        Me.ExportButton.Name = "ExportButton"
+        Me.ExportButton.Size = New System.Drawing.Size(89, 23)
+        Me.ExportButton.TabIndex = 17
+        Me.ExportButton.Text = "Export"
+        Me.ExportButton.UseVisualStyleBackColor = True
+        '
+        'SetTitleTextButton
+        '
+        Me.SetTitleTextButton.Location = New System.Drawing.Point(19, 363)
+        Me.SetTitleTextButton.Name = "SetTitleTextButton"
+        Me.SetTitleTextButton.Size = New System.Drawing.Size(95, 23)
+        Me.SetTitleTextButton.TabIndex = 18
+        Me.SetTitleTextButton.Text = "Set Title Text"
+        Me.SetTitleTextButton.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(218, 368)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(409, 15)
+        Me.Label1.TabIndex = 19
+        Me.Label1.Text = "File name on export is the Title Text. Set this with the ""Set Title Text"" button"
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(857, 370)
+        Me.ClientSize = New System.Drawing.Size(857, 397)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.SetTitleTextButton)
+        Me.Controls.Add(Me.ExportButton)
+        Me.Controls.Add(Me.ResetAllButton)
         Me.Controls.Add(Me.GroupBox12)
         Me.Controls.Add(Me.GroupBox11)
         Me.Controls.Add(Me.GroupBox10)
@@ -1032,6 +1079,7 @@ Partial Class MainForm
         Me.GroupBox12.ResumeLayout(False)
         Me.GroupBox12.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
@@ -1118,5 +1166,9 @@ Partial Class MainForm
     Friend WithEvents Counter10SetTo0Button As System.Windows.Forms.Button
     Friend WithEvents Counter11SetTo0Button As System.Windows.Forms.Button
     Friend WithEvents Counter12SetTo0Button As System.Windows.Forms.Button
-
+    Friend WithEvents ResetAllButton As Button
+    Friend WithEvents ExportButton As Button
+    Friend WithEvents SetTitleTextButton As Button
+    Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
+    Friend WithEvents Label1 As Label
 End Class
