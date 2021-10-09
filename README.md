@@ -3,7 +3,7 @@ A custom counter program for Windows, built in VB.net
 
 [Latest release available here](https://github.com/wjz1095/Custom-Counter/releases)
 
-![mainGUI](https://i.imgur.com/C3zeHw1.png)
+![mainGUI](https://i.imgur.com/FzJJL6M.png)
 
 Code is open source and may be modified or used in other projects, provided you cite my project as a source or inspiration of your project.
 
