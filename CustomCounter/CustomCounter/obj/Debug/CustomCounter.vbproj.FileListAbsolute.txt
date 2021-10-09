@@ -27,3 +27,7 @@ C:\Users\Wally\Documents\GitHub\Custom-Counter\CustomCounter\CustomCounter\bin\D
 C:\Users\Wally\Documents\GitHub\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.xml
 C:\Users\Wally\Documents\GitHub\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe.manifest
 C:\Users\Wally\Documents\GitHub\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.application
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe.config
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.xml
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.pdb
