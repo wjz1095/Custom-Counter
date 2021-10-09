@@ -31,3 +31,16 @@ C:\Users\Wally\Documents\GitHub\Custom-Counter\CustomCounter\CustomCounter\obj\D
 \\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe
 \\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.xml
 \\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.pdb
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.MainForm.resources
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.Resources.resources
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.vbproj.GenerateResource.Cache
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe.manifest
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.application
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.exe
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.pdb
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\CustomCounter.xml
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.exe.manifest
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.application
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\bin\Debug\en\CustomCounter.resources.dll
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\CustomCounter.MainForm.en.resources
+\\192.168.1.15\ZacekNAS\Github-Repos-FreeNAS\Custom-Counter\CustomCounter\CustomCounter\obj\Debug\en\CustomCounter.resources.dll
